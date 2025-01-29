@@ -26,9 +26,28 @@ Claro, tem as bibliotecas comuns como ```import pandas as pd``` que estou ultili
 # Definindo o diretório
 diretorio = r'C:\Git\USER\testes\Chamados\BANCO DOLAR TESTE'
 ```
-# Estruturação do cod #
+# Inicio #
 
 Vamos iniciar usando a linguagem python dentro do seu vscode, lembre-se antes de instalar o python no seu computador e claro as extensões dentro do vscode. Nesse inicio vamos criar uma pasta com o nome Banco de Dados, após a criação dentro do vscode, la em cima no canto esquerdo você seleciona a opção de ```File - Open Folder```, nela procura o caminho da pasta e realiza a abertura da mesma. 
+
+# Diretório #
+A ideia do projeto é ler dados de a cada 1 minuto da cotação do dolar e no final exportar como arquivo parquet, visando o controle do mesmo, desde a criação de um dash ou até mesmo outro tipo de analise. 
+
+Vamos iniciar importando a biblioteca e depois o caminho do diretorio, para isso crie um new file com o nome, ```banco_dolar.ipynb```, onde vamos executar um jupyter que usamos para ler linhas e deixar as mesmas armazenadas em cache. 
+
+```python
+
+import requests
+import sqlite3
+import schedule
+import time
+import pandas as pd
+import os
+
+diretorio = r'C:\Git\BI0730\testes\Chamados\BANCO DOLAR TESTE'
+```
+
+
 
 
 
