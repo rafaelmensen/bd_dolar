@@ -20,4 +20,16 @@ def run_schedule():
         schedule.run_pending()
         time.sleep(1)
 ```
-Claro, tem as bibliotecas comuns como ```import pandas as pd``` e ```import os```, 
+Claro, tem as bibliotecas comuns como ```import pandas as pd``` que estou ultilizando para manipular dados em parquet e ```import os``` para o uso de criação de arquivos e leitura dos mesmo como o exemplo abaixo.
+
+```python
+# Definindo o diretório
+diretorio = r'C:\Git\USER\testes\Chamados\BANCO DOLAR TESTE'
+```
+# Estruturação do cod #
+
+Vamos iniciar usando a linguagem python dentro do seu vscode, lembre-se antes de instalar o python no seu computador e claro as extensões dentro do vscode. Nesse inicio vamos criar uma pasta com o nome Banco de Dados, após a criação dentro do vscode, la em cima no canto esquerdo você seleciona a opção de ```File - Open Folder```, nela procura o caminho da pasta e realiza a abertura da mesma. 
+
+
+
+
