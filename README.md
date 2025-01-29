@@ -20,3 +20,4 @@ def run_schedule():
         schedule.run_pending()
         time.sleep(1)
 ```
+Claro, tem as bibliotecas comuns como ```import pandas as pd``` e ```import os```, 
