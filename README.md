@@ -52,3 +52,81 @@ diretorio = r'C:\Git\BI0730\testes\Chamados\BANCO DOLAR TESTE'
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+exucutar abaixo para fazer o commit 
+
+cd C:\rafa\bd_dolar
+git add .
+git status
+git commit -m "Adicionando arquivos não rastreados"
+git push origin main
+
+
+
+
+
+
+
