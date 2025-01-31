@@ -47,6 +47,7 @@ import os
 diretorio = r'C:\Git\BI0730\testes\Chamados\BANCO DOLAR TESTE'
 ```
 
+![Captura de tela 2025-01-31 113313](https://github.com/user-attachments/assets/e3185111-8058-40e7-b791-fcf5e6924178)
 
 
 
